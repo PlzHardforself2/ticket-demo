@@ -1,0 +1,21 @@
+@import "../../../style/mixins.less";
+
+.ticket_content {
+  .title_show();
+
+  h1 {
+    .h1_style();
+  }
+}
+
+.entry_wrap {
+  .operate_nav();
+  border-bottom: none;
+
+  :global {
+    .ant-btn {
+      width: 100px;
+      border-radius: 3%;
+    }
+  }
+}
