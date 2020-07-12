@@ -1,7 +1,11 @@
 const UserModel: UserModelType = {
   namespace: 'user',
   state: {},
-  reducers: {},
+  reducers: {
+      getList(state, action){
+        const data = {...}
+      }
+  },
   effects: {},
   subscriptions: {
     setup({ dispatch, history }) {

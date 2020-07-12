@@ -3,6 +3,8 @@ import { Button, Input } from 'antd'
 import styles from './index.less'
 import { useHistory, useLocation } from 'react-router-dom'
 import TicketList from './component/TicketList'
+// import { connect } from 'dva'
+// import { connnet } from 'umi'
 
 const Ticket = () => {
   // const history = useHistory()
@@ -22,5 +24,14 @@ const Ticket = () => {
     </>
   )
 }
+
+// redux 内容相关
+// const mapStateToProps = ({users}) = {   //传入参数为state对象 users为namespace  return数据为users
+//   return {
+//     users,
+//   }
+// }
+
+// export default connect(mapStateToProps)(Ticket)
 
 export default Ticket
